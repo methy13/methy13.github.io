@@ -19,7 +19,7 @@ nav {
 h1 {
     display: flex;
     align-items: center;
-    color: white;
+    color: rgb(4, 4, 4);
     flex: 1;
     margin: 0;
 }
@@ -59,4 +59,29 @@ main {
 }
 h2, h3 {
     margin: 0px;
+}
+ /* portfolio styles */
+ .content h1 {
+    color: rgb(5, 0, 0);
+}
+
+#portfolio {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#portfolio li {
+    background: #030000;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#portfolio li:hover {
+    background: #050000;
+}
+
+#portfolio a {
+    text-decoration: none;
+    color: #060101;
 }
